@@ -7,7 +7,7 @@ from time import sleep
 # 4. интеграция с яндекс.картинки, гугл картинки и прочими подобными сервисами
 
 
-token = 'a7c3fd8b19fe2e02e56370a14b0b300a9e8be5ae18bbf0d64c2874bdbbc1235bf845048d0ef70a6596316'
+token = 'your token'
 version = '5.131'
 
 def get_user_subs(id):
@@ -150,8 +150,8 @@ def get_friends_user(id):
         else:
             print('Имя Фамилия: ', first_name, last_name,'\n','Пол: ', sex,'\n','Город школы: ',school_city,'\n','Школа: ', school_name,'\n','Мобильный телефон: ', mobile_phone,'\n','Домашний телефон: ', home_phone,'\n')
 
-user_id = '181656859'
-#user_id = input("Введи айди страницы: ")
+#user_id = ''
+user_id = input("Введи айди страницы: ")
 id = get_user_info(user_id)
 #get_user_subs(id)
 get_friends_user(id)
