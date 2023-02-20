@@ -8,6 +8,8 @@ The following functions are performed:
 3. Collecting information about the target's friends.
 4. Collecting photos from target's page.
 
+A primary analysis of the city and university is also available using information from the goal page, its subscriptions and friends.
+
 Development continues, suggestions and criticism are accepted.
 
 ABOUT PROGRAM:
